@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Proffard place]]></title>
-  <link href="http://proffard.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: config | Proffard place]]></title>
+  <link href="http://proffard.github.io/blog/categories/config/atom.xml" rel="self"/>
   <link href="http://proffard.github.io/"/>
   <updated>2014-07-23T14:29:45+04:00</updated>
   <id>http://proffard.github.io/</id>
