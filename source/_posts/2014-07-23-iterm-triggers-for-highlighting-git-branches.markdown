@@ -22,7 +22,7 @@ It's very easy to configure your iTerm to behave in such way:
 1. Open iterm preferences (_Cmd + ,_)
 2. Go to Profiles -> Advanced tab
 3. Click 'Triggers'
-4. Add new "triggers" by clicking "+" button, like following:
+3. Add new "triggers" by clicking "+" button, like following:
 
 {% img ../images/img/iterm_settings.png 'iterm2 trigger settings' %}
 
