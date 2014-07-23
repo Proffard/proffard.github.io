@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Config | Proffard place]]></title>
   <link href="http://proffard.github.io/blog/categories/config/atom.xml" rel="self"/>
   <link href="http://proffard.github.io/"/>
-  <updated>2014-07-23T14:42:19+04:00</updated>
+  <updated>2014-07-23T21:17:43+04:00</updated>
   <id>http://proffard.github.io/</id>
   <author>
     <name><![CDATA[Nikolay Samokhin]]></name>
@@ -18,7 +18,34 @@
     <link href="http://proffard.github.io/blog/2014/07/23/iterm-triggers-for-highlighting-git-branches/"/>
     <updated>2014-07-23T14:12:50+04:00</updated>
     <id>http://proffard.github.io/blog/2014/07/23/iterm-triggers-for-highlighting-git-branches</id>
-    <content type="html"><![CDATA[<p>** Use iTerm2 triggers!</p>
+    <content type="html"><![CDATA[<h4>The problem</h4>
+
+<p>Sometimes it is really hard to determine which commit deployed to your production instance.
+Especially, when you have several staging environment and a lot of ongoing feature branches.</p>
+
+<h4>Solution</h4>
+
+<p>Here is a solution provided by iTerm2 triggers:
+<img src="../images/img/iterm_trigger_highlighting.png" title="&lsquo;git graph in iterm2 with special branches highlighting&rsquo;" >
+See? <em>haa/master</em>  highlighted by green background. Much easier to find it.</p>
+
+<p>Also <em>origin/master</em> has different color (purple)</p>
+
+<h4>Iterm Configuration</h4>
+
+<p>It&rsquo;s very easy to configure your iTerm to behave in such way:</p>
+
+<ol>
+<li>Open iterm preferences (<em>Cmd + ,</em>)</li>
+<li>Go to Profiles &ndash;> Advanced tab</li>
+<li>Click &lsquo;Triggers&rsquo;</li>
+<li>Add new &ldquo;triggers&rdquo; by clicking &ldquo;+&rdquo; button, like following:</li>
+</ol>
+
+
+<p><img src="../images/img/iterm_settings.png" title="&lsquo;iterm2 trigger settings&rsquo;" ></p>
+
+<p>That&rsquo;s it!</p>
 ]]></content>
   </entry>
   
