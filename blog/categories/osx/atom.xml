@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: osx | Proffard place]]></title>
+  <title><![CDATA[Category: Osx | Proffard place]]></title>
   <link href="http://proffard.github.io/blog/categories/osx/atom.xml" rel="self"/>
   <link href="http://proffard.github.io/"/>
-  <updated>2014-07-23T14:29:45+04:00</updated>
+  <updated>2014-07-23T14:42:19+04:00</updated>
   <id>http://proffard.github.io/</id>
   <author>
     <name><![CDATA[Nikolay Samokhin]]></name>
@@ -14,7 +14,7 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Iterm triggers for highlighting git branches]]></title>
+    <title type="html"><![CDATA[Iterm Triggers for Highlighting Git Branches]]></title>
     <link href="http://proffard.github.io/blog/2014/07/23/iterm-triggers-for-highlighting-git-branches/"/>
     <updated>2014-07-23T14:12:50+04:00</updated>
     <id>http://proffard.github.io/blog/2014/07/23/iterm-triggers-for-highlighting-git-branches</id>
