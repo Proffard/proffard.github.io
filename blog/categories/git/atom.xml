@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Git | Proffard place]]></title>
+  <title><![CDATA[Category: git | Proffard place]]></title>
   <link href="http://proffard.github.io/blog/categories/git/atom.xml" rel="self"/>
   <link href="http://proffard.github.io/"/>
-  <updated>2014-07-24T01:16:34+04:00</updated>
+  <updated>2014-07-24T11:55:36+04:00</updated>
   <id>http://proffard.github.io/</id>
   <author>
     <name><![CDATA[Nikolay Samokhin]]></name>
@@ -14,14 +14,14 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Iterm Triggers for Highlighting Git Branches]]></title>
+    <title type="html"><![CDATA[Iterm triggers for highlighting git branches]]></title>
     <link href="http://proffard.github.io/blog/2014/07/23/iterm-triggers-for-highlighting-git-branches/"/>
     <updated>2014-07-23T14:12:50+04:00</updated>
     <id>http://proffard.github.io/blog/2014/07/23/iterm-triggers-for-highlighting-git-branches</id>
     <content type="html"><![CDATA[<h4>The problem</h4>
 
 <p>Sometimes it is really hard to determine which commit deployed to your production instance.
-Especially, when you have several staging environment and a lot of ongoing feature branches.</p>
+Especially, when you have several staging environments and a lot of ongoing feature branches.</p>
 
 <h4>Solution</h4>
 
