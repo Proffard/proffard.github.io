@@ -4,11 +4,11 @@
   <title><![CDATA[Category: git | Proffard place]]></title>
   <link href="http://proffard.github.io/blog/categories/git/atom.xml" rel="self"/>
   <link href="http://proffard.github.io/"/>
-  <updated>2014-07-24T11:55:36+04:00</updated>
+  <updated>2014-07-29T11:38:13+04:00</updated>
   <id>http://proffard.github.io/</id>
   <author>
     <name><![CDATA[Nikolay Samokhin]]></name>
-    
+    <email><![CDATA[nasamohin@gmail.com]]></email>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
@@ -25,11 +25,16 @@ Especially, when you have several staging environments and a lot of ongoing feat
 
 <h4>Solution</h4>
 
-<p>Here is a solution provided by iTerm2 triggers:
-<img src="../images/img/iterm_trigger_highlighting.png" title="&lsquo;git graph in iterm2 with special branches highlighting&rsquo;" >
-See? <em>haa/master</em>  highlighted by green background. Much easier to find it.</p>
+<p>Here is a solution provided by iTerm2 triggers:</p>
+
+<p><img src="../images/img/iterm_trigger_highlighting.png" title="&lsquo;&rsquo;" ></p>
+
+<p>See? <em>haa/master</em>  highlighted by green background. Much easier to find it.</p>
 
 <p>Also <em>origin/master</em> has different color (purple)</p>
+
+<!-- more -->
+
 
 <h4>Iterm Configuration</h4>
 
