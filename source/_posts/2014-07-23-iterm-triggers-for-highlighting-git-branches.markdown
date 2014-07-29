@@ -7,14 +7,18 @@ categories: [iterm2, osx, git, config]
 ---
 #### The problem
 Sometimes it is really hard to determine which commit deployed to your production instance.
-Especially, when you have several staging environment and a lot of ongoing feature branches.
+Especially, when you have several staging environments and a lot of ongoing feature branches.
 
 #### Solution
 Here is a solution provided by iTerm2 triggers:
-{% img ../images/img/iterm_trigger_highlighting.png 'git graph in iterm2 with special branches highlighting' %}
+
+{% img ../images/img/iterm_trigger_highlighting.png '' %}
+
 See? _haa/master_  highlighted by green background. Much easier to find it.
 
 Also _origin/master_ has different color (purple)
+
+<!-- more -->
 
 #### Iterm Configuration
 It's very easy to configure your iTerm to behave in such way:

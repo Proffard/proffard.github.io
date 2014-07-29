@@ -1,6 +1,6 @@
-<div id='footer_content'>
-  <ul>
-    <li>Copyright &copy; {{ site.time | date: "%Y" }} - {{ site.author }}</li>
-    <li>Powered by <a href="http://octopress.org">Octopress</a></li>
-  </ul>
-</div>
+Copyright &copy; {{ site.time | date: "%Y" }}
+{% if site.author %}
+    {{ site.author }}
+{% else %}
+    {{ site.title }}
+{% endif %}

@@ -1,37 +1,23 @@
 {% capture root_url %}{{ site.root | strip_slash }}{% endcapture %}
 {% include head.html %}
-	<header class="band" data-0="background-position:0px 0px;" data-500="background-position:0px -250px;">
-		<div class="container">
-			<div class="columns sixteen" data-0="opacity: 1" data-180="opacity: 0">
-        {% include header.html %}
-        {% include navigation.html %}
+
+<body>
+	<div class="container">
+		<div class="left-col">
+			<div class="intrude-less">
+			<header id="header" class="inner">{% include header.html %}</header>
 			</div>
 		</div>
-	</header>
-
-	<div class="band main">
-		<div class="container">
-			<div class="columns twelve offset-by-two">
-        {{ content | expand_urls: root_url }}
+		<div class="mid-col">
+			{% unless page.banner == false %}
+				{% include banner.html %}
+			{% endunless %}
+			<div class="mid-col-container">
+				<div id="content" class="article-inner">{{ content | expand_urls: root_url }}</div>
 			</div>
+			<footer id="footer" class="inner">{% include footer.html %}</footer>
+			{% include after_footer.html %}
 		</div>
 	</div>
-
-	<footer class="band main">
-		<div class="container">
-			<div class="columns sixteen">
-        {% include footer.html %}
-        {% include after_footer.html %}
-			</div>
-		</div>
-	</footer>
-
-	<script type="text/javascript" src="/javascripts/skrollr.js"></script>
-	<script type="text/javascript">
-	skrollr.init({
-		forceHeight: false
-	});
-	</script>
-</script>
 </body>
-
+</html>
